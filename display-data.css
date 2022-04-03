@@ -1,0 +1,33 @@
+
+*{
+    text-align: center;
+}
+.container{
+    background-color: rgb(236, 215, 95);
+    padding: 5pc;
+    margin: 5pc;
+    border-radius: 30px;
+}
+
+h3{
+    display: inline;
+    color: maroon;
+    font-size: 40px;
+   
+}
+
+
+
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.i{
+    padding: 20px;
+}
+
+

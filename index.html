@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>REGISTRATION FROM</title>
+    <style>
+      *{
+        padding: 3px;
+        margin: 0;
+        box-sizing: border-box;
+      
+      }
+      body{
+        background: rgb(219,226,226);
+      }
+      .row{
+        background: white;
+        border-radius: 30px;
+        box-shadow: 12px 12px 22px grey;
+        border: 50px;
+       
+      }
+      h1{
+        text-align: center;
+        padding: 0px;
+        color: blueviolet;
+      }
+      img{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 30px;
+        height: 50px;
+      
+      }
+      .btn1{
+        border: none;
+        outline: none;
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+      .btn1:hover{
+        background: white;
+        border: 1px solid;
+        color: black;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <section class="form my-4 mx-7">
+        <div class="container">
+            <div class="row no-gutters">
+              <h1>Registration form</h1>
+                <div class="col-lg-5">
+                    <img src="image.jpg" class="img-fluid my-3 p-9 " alt="" style=" height:95%; width: 150%;">
+                </div>
+                <div class="col-md-7 pt-7">
+                    <form>
+                        <div class="form-row">
+                            <div class="col-sm-7 ">
+                              <input type="text" placeholder="Enter a Firstname" id="firstname" class="form-control my-1 p-2 " style="margin-left: 75px;">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-sm-7 ">
+                            <input type="text" placeholder="Enter a lastname" id="lastname" class="form-control my-1 p-2" style="margin-left: 75px;">
+                          </div>
+                      </div>
+                        <div class="form-row">
+                            <div class="col-lg-7">
+                              <input type="text" placeholder="Email-Address" id="emailaddress" class="form-control my-1 p-2" style="margin-left: 75px;">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                          <div class="col-lg-7">
+                            <input type="text" placeholder="Mobile_number" id="mobilenumber" class="form-control my-1 p-2" style="margin-left: 75px;">
+                          </div>
+                      </div>
+
+                      <div class="form-row">
+                        <div class="col-lg-7">
+                          <input type="date" placeholder="Birth_Date" id="birthdate" class="form-control my-1 p-2" style="margin-left: 75px;">
+                        </div>
+                    </div>
+                      <div class="form-row">
+                        <div class="col-lg-7">
+                          <input type="text" placeholder="Password" id="password" class="form-control my-1 p-2" style="margin-left: 75px;">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                      <div class="col-lg-7">
+                        <input type="text" placeholder="Confirm_Password" id="confirmpassword" class="form-control my-1 p-2" style="margin-left: 75px;">
+                      </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-lg-7">
+                     <label class="form-control my-1 p-2" id="gender" style="margin-left:75px;">Gender
+                      <div  style="margin-left: 40px;">Male : <input type="radio" style="margin-left:5px;">&nbsp
+                      &nbsp Female : <input type="radio" style="margin-left:5px;"></div>
+                    </label>
+                     </div>
+                </div>
+                
+                        <div class="form-row">
+                          <div class="col-lg-7">
+                            
+                            <input type="button" value = "Register Here " id="btn" placeholder="Submit" style="margin-left: 75px;" class="btn1 mt-2 mb-3">
+                          </div>
+                        </div>
+                    </form>
+                </div>
+                 
+            </div>
+        </div>
+    </section>
+
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
